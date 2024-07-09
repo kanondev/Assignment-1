@@ -3,12 +3,16 @@
     margin: 0;
     padding: o;
 }
+body{
+    font-family: "Azeret Mono", monospace;
+}
 .background-image-container{
     width: 1440px;
     height: 652px;
     background-image: url(../assets/Hero-bg.png);
     background-position: cover;
     text-align: center;
+    margin-bottom: 222px;
 }
 .primary-btn{
     padding: 21px 24px;
@@ -26,4 +30,39 @@
 .background-image{
     margin: 26px 221px 45px 221px;
 }
-
+/*Web Development style*/ 
+/* .web-development-section{
+    width: 1140px;
+    height: 1393px;
+    border: 2px solid red;
+}
+.web-development-containt{
+    text-align: center;
+}
+.web-development-description{
+    text-align: center;
+}
+.coding-part{
+    display: flex;
+}
+.coding-partss{
+    display: flex;
+} */
+/*inspiration section*/
+.inspiration{
+    text-align: center;
+    height: 775px;
+    width: 1140px;
+    margin: 0 auto;
+}
+#youtube-video{
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+    margin-top: 48px;
+}
+.inspiration h2{
+    margin-bottom: 24px;
+}
