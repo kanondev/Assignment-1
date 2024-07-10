@@ -3,6 +3,7 @@
     margin: 0;
     padding: o;
 }
+
 body{
     font-family: "Azeret Mono", monospace;
 }
@@ -30,24 +31,66 @@ body{
 .background-image{
     margin: 26px 221px 45px 221px;
 }
-/*Web Development style*/ 
-/* .web-development-section{
+/*why Web Development style*/ 
+.why-webdebelopments{
     width: 1140px;
-    height: 1393px;
-    border: 2px solid red;
+    height: 1233px;
+    margin: 0 auto;
+    padding: 97px;
+    background-color: rgba(13, 19, 33, 0.02);
 }
-.web-development-containt{
+.why-webdebelopment{
     text-align: center;
+    padding: 0 47px;
+    margin-bottom: 48px;
 }
-.web-development-description{
-    text-align: center;
+.image-part{
+    width: 946px;
+    margin: auto;
 }
-.coding-part{
+.part-1{
     display: flex;
+    padding: 48px;
+    margin: 0 auto;
+    
 }
-.coding-partss{
+.part-1-ariea{
+    width: 447px;
+    height: 140px;
+}
+.part-1-title{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.part-2{
     display: flex;
-} */
+    padding: 48px;
+    margin: 0 auto;
+    
+}
+.part-2-ariea{
+    width: 447px;
+    height: 140px;
+}
+.part-2-title{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.part-3{
+    display: flex;
+    padding: 48px;
+    margin: 0 auto;
+    
+}
+.part-3-ariea{
+    width: 447px;
+    height: 140px;
+}
+.part-3-title{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
 /*inspiration section*/
 .inspiration{
     text-align: center;
@@ -69,39 +112,36 @@ body{
 
 
 /* my target section start*/
+.target-title{
+    text-align: center;
+    padding: 24px;
+}
+.target-description{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
 .my-target{
     display: flex;
+    margin-left: 160px;
+    gap: 24px;
 }
 .html{
-    width: 364px;
+    padding: 40px;
     height: 299px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
+    width: 364px;
     background-color: rgba(255, 76, 30, 0.05);
-    border: 2px solid red;
 }
 .css{
-    width: 364px;
+    padding: 40px;
     height: 299px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
+    width: 364px;
     background-color: rgba(0, 76, 232, 0.05);
-    border: 2px solid red;
 }
 .js{
-    width: 364px;
+    padding: 40px;
     height: 299px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
+    width: 364px;
     background-color: rgba(255, 223, 0, 0.05);
-    border: 2px solid red;
 }
+
