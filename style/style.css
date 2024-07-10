@@ -50,6 +50,7 @@ body{
 }
 .part-1{
     display: flex;
+    justify-content: space-between;
     padding: 48px;
     margin: 0 auto;
     
@@ -64,6 +65,7 @@ body{
 }
 .part-2{
     display: flex;
+    justify-content: space-between;
     padding: 48px;
     margin: 0 auto;
     
@@ -78,6 +80,7 @@ body{
 }
 .part-3{
     display: flex;
+    justify-content: space-between;
     padding: 48px;
     margin: 0 auto;
     
@@ -89,6 +92,9 @@ body{
 .part-3-title{
     font-size: 24px;
     color: rgba(13, 19, 33, 0.7);
+}
+.web-primary-btn{
+    margin-top: 24px;
 }
 
 /*inspiration section*/
@@ -147,6 +153,15 @@ body{
 .target{
     margin-bottom: 35px;
 }
+
+.btn-setup{
+    border: none;
+    color: black;
+    font-size: 16;
+    margin-top: 43px;
+}
+
+
 /*suport section*/
 
 
